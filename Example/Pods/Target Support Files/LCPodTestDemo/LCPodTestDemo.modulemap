@@ -1,0 +1,6 @@
+framework module LCPodTestDemo {
+  umbrella header "LCPodTestDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

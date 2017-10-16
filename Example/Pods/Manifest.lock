@@ -1,0 +1,16 @@
+PODS:
+  - LCPodTestDemo (0.1.0)
+
+DEPENDENCIES:
+  - LCPodTestDemo (from `../`)
+
+EXTERNAL SOURCES:
+  LCPodTestDemo:
+    :path: ../
+
+SPEC CHECKSUMS:
+  LCPodTestDemo: eada5711ef6dd61558346f520a101c3910ced439
+
+PODFILE CHECKSUM: 77907ade82b842986d2e8990178e17b93e4e1a42
+
+COCOAPODS: 1.3.1

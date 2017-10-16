@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'LCPodTestDemo'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of LCPodTestDemo.'
+  s.summary          = '测试私有库'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TODO: 详细描述.
                        DESC
 
-  s.homepage         = 'https://github.com/lice_home@163.com/LCPodTestDemo'
+  s.homepage         = 'https://github.com/InnerMongoliaZorro/testpod.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'lice_home@163.com' => 'lice_home@163.com' }
-  s.source           = { :git => 'https://github.com/lice_home@163.com/LCPodTestDemo.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/InnerMongoliaZorro/testpod.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

@@ -7,12 +7,14 @@
 //
 
 #import "LCAppDelegate.h"
-
+#import "DLog.h"
 @implementation LCAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [DLog logBundleIdentifier];
+    [DLog logCurrentVersion];
     return YES;
 }
 
