@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LCPodTest'
-  s.version          = '0.1.2'
-  s.summary          = '自定义第三方库'
+  s.version          = '0.1.3'
+  s.summary          = '为什么看不到更新啊'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 TODO: 详细介绍
                        DESC
 
-  s.homepage         = 'https://github.com/InnerMongoliaZorro/testpod.git'
+  s.homepage         = 'https://github.com/InnerMongoliaZorro/testpod'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'lice_home@163.com' => 'lice_home@163.com' }
