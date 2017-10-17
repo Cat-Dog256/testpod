@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LCPodTest'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = '自定义第三方库'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ TODO: 详细介绍
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'LCPodTest/LCPodTest/Classes/**/*'
+  s.source_files = 'LCPodTest/Classes/**/*'
   # s.resource_bundles = {
   #   'LCPodTest' => ['LCPodTest/Assets/*.png']
   # }
