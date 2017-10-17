@@ -12,4 +12,5 @@
 + (void)logBundleIdentifier;
 + (void)logDisplayName;
 + (void)logBuild;
++ (void)logBundleInfoDictoryVersion;
 @end

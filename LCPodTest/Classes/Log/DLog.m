@@ -20,4 +20,7 @@
 + (void)logBuild{
     NSLog(@"%@",[[[NSBundle mainBundle] infoDictionary]objectForKey:@"CFBundleVersion"]);
 }
++ (void)logBundleInfoDictoryVersion{
+    NSLog(@"%@",[[[NSBundle mainBundle] infoDictionary]objectForKey:@"CFBundleInfoDictionaryVersion"]);
+}
 @end
