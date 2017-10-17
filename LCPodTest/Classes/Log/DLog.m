@@ -14,4 +14,10 @@
 + (void)logBundleIdentifier{
     NSLog(@"%@",[[NSBundle mainBundle] bundleIdentifier]);
 }
++ (void)logDisplayName{
+    NSLog(@"%@",[[[NSBundle mainBundle] infoDictionary]objectForKey:@"CFBundleDisplayName"]);
+}
++ (void)logBuild{
+    NSLog(@"%@",[[[NSBundle mainBundle] infoDictionary]objectForKey:@"CFBundleVersion"]);
+}
 @end

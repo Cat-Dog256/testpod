@@ -10,4 +10,6 @@
 @interface DLog : NSObject
 + (void)logCurrentVersion;
 + (void)logBundleIdentifier;
++ (void)logDisplayName;
++ (void)logBuild;
 @end
